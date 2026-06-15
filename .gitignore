@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+# Do NOT commit the competition SDK / fixtures (competition-provided data)
+aicomp_sdk/
+*.zip
+/tmp/
