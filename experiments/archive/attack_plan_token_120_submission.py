@@ -54,47 +54,9 @@ SCORING_PAYLOADS = (
     "SECRET_MARKER",
 )
 
-SEARCH_PROFILE = "multi4_400"
+SEARCH_PROFILE = "plan_token_120"
 
 PROFILE_SETTINGS = {
-    "multi4_400": {
-        "max_verified_candidates": 40,
-        "return_target_candidates": 400,
-        "static_fallback_candidates": 220,
-        "empty_run_fallback_candidates": 40,
-        "search_fraction": 0.01,
-        "max_search_s": 45.0,
-        "endpoint_counts": (4, 2, 1),
-        "endpoints_per_msg": 4,
-        "max_msg_chars": 700,
-        "default_max_hops": 4,
-        "destructive_probe_limit": 0,
-        "source_lottery_limit": 0,
-        "chain_fill_enabled": False,
-        "adaptive_fill_enabled": False,
-        "adaptive_multi_min_observed_exfil": 2,
-        "adaptive_fill_max_candidates": 0,
-        "single_fill_fraction": 1.00,
-        "chain2_fill_fraction": 1.00,
-        "calibration_order": "endpoint_outer",
-        "replay_hop_cap": 0,
-        "min_return_candidates": 340,
-        "calibration_fraction": 0.30,
-        "mutation_fraction": 0.34,
-        "mass_fraction": 0.84,
-        "single_fraction": 0.93,
-        "deputy_fraction": 0.985,
-        "destructive_fraction": 0.99,
-        "combo_pool_size": 36,
-        "fill_pool_size": 72,
-        "mutation_seed_limit": 1,
-        "snapshot_branch_limit": 0,
-        "deputy_probe_limit": 2,
-        "deputy_mutation_limit": 0,
-        "force_payload_balance": True,
-        "split_fill_fraction": 0.08,
-        "allow_deputy_fill": True,
-    },
     "plan_token_120": {
         "max_verified_candidates": 80,
         "return_target_candidates": 120,

@@ -59,7 +59,6 @@ def main():
                     help="Parent directory containing the aicomp_sdk package")
     args = ap.parse_args()
 
-    from aicomp_sdk.guardrails import GuardrailBase  # noqa: E402  (after sys.path)
     sys.path.insert(0, args.sdk)
     from aicomp_sdk.guardrails import GuardrailBase
     from aicomp_sdk.guardrails.optimal import Guardrail as OptimalGuardrail
